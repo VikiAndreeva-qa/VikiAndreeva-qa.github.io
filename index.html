@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой любимый питомец</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="pet-info">
+    <div class="pet-photo">
+        <img src="фото.jpg" alt="Фото питомца" id="pet-photo">
+        <a href="https://lapkins.ru/dog/taksa/" target="_blank" rel="noopener noreferrer" class="link-button">Информация о породе</a>
+
+    </div>
+    <div class="pet-card">
+        Привет, я такса Дейзи! 🐾<br><br>
+        Обожаю прогулки и, признаюсь честно, я — профессиональный разрушитель игрушек!
+        Вкусняшки — моё слабое место. А ещё я просто таю от счастья, когда мне чешут за ушком и пузико. 😊<br><br>
+        Иногда гоняю голубей и кошек (ну а как иначе — это же так весело! 😈), но вообще-то я очень добрая, ласковая и нежная. Просто с характером! 😉<br><br>
+        Давай дружить? Я с радостью покажу тебе, где прячутся самые интересные запахи во дворе и как правильно просить вкусняшку 😁
+    </div>
+</div>
+        
+        <div class="buttons">
+            <button id="bone-btn">Покормить косточкой</button>
+            <button id="pigeon-btn">Погонять голубей</button>
+        </div>
+        
+        <img id="bone" class="moving-item" src="кость.png" alt="Косточка">
+        <img id="pigeon" class="moving-item" src="голубь2.png" alt="Голубь">
+    </div>
+    <div class="guestbook">
+    <h3>Оставь сообщение Дейзи</h3>
+    <div class="guestbook-form">
+        <input type="text" placeholder="Твое имя" id="guest-name">
+        <textarea maxlength="1000" placeholder="Мяу... ой, то есть гав! Пиши сюда..." id="guest-message"></textarea>
+        <button id="submit-message">Отправить</button>
+    </div>
+    <div class="messages" id="messages-container"></div>
+</div>
+<div class="contact-links">
+    <h4>Связаться с хозяйкой</h4>
+    <a href="https://t.me/And_Viki_S" target="_blank" rel="noopener noreferrer" class="contact-link">Telegram</a>
+  </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,226 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0e6;
+    margin: 0;
+    padding: 50px;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+
+.pet-card {
+    background: #fdfdfd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 20px 0;
+}
+
+.pet-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+button {
+    background: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background:  #e65b50;
+}
+
+.moving-item {
+    position: absolute;
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+    display: none;
+    z-index: 10;
+}
+.guestbook {
+    background: #fdfdfd;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.guestbook-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.guestbook-form input,
+.guestbook-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.guestbook-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.guestbook-form button {
+    background: #bf2295;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.guestbook-form button:hover {
+    background: #9b1b79;
+}
+.messages {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.message {
+    background: #fdfdfd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.message-author {
+    font-weight: bold;
+    color: #e67e22;
+}
+.pet-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.pet-photo img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.pet-card {
+    flex: 1;
+    text-align: left;
+}
+.link-button {
+    display: inline-block;
+    background-color: #bf2295;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 0px;
+    transition: background-color 0.3s ease;
+}
+
+.link-button:hover {
+    background-color:  #9b1b79;
+}
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .pet-info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .pet-photo img {
+    width: 60%;
+    max-width: 300px;
+  }
+
+  .pet-card {
+    text-align: center;
+    padding: 15px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .link-button,
+.guestbook-form button {
+    display: block;
+    width: 90%;
+    max-width: 300px;
+    margin: 10px auto 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+  .guestbook-form {
+    padding: 0 10px;
+  }
+
+  .guestbook-form input,
+  .guestbook-form textarea {
+    font-size: 14px;
+  }
+
+  h1, h3 {
+    font-size: 1.4em;
+  }
+
+  .moving-item {
+    width: 70px;
+  }
+}
+.contact-links {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.contact-links h4 {
+  margin-bottom: 10px;
+  color: black;
+}
+
+.contact-link {
+  display: inline-block;
+  color: #bf2295;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #9b1b79;
+}
