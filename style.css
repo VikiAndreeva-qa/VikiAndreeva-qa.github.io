@@ -1,8 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background:
-        linear-gradient(rgba(255, 240, 230, 0.95), rgba(255, 240, 230, 0.95)),
-        url('лапки.jpg');
+    background: linear-gradient(rgba(255, 240, 230, 0.95), rgba(255, 240, 230, 0.95)), url('paw-bg.jpg');
     background-size: 200px;
     background-repeat: repeat;
     margin: 0;
